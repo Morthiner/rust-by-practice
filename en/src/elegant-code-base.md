@@ -1,48 +1,51 @@
-# Small projects with Elegant code base
-Following questions come up weekly in online Rust discussions: 
+# Small Projects with an Elegant code base
+The following questions surface regularly in online Rust discussions, such as:
 
-- I just finished reading The Book, what should I do next ?
+- I've just completed The Book; what should be my next steps?
 - What projects would you recommend to a Rust beginner?
-- Looking for small projects with an elegant code base
-- Codes that is easy to read and learn
+- Looking for small projects with an elegant code base.
+- Code that is both readable and conducive to learning.
 
-The answers to these questions are always **Practice**: doing some exercises, and then reading some small and excellent Rust projects.
+The typical responses to these questions invariably boil down to one word: **Practice**. This involves engaging in exercises and exploring small, well-crafted Rust projects.
 
-This is precisely the goal of this book, so, collecting relative resourses and representing in _Rust By Practice_ seems not a bad idea.
+This book aims to facilitate exactly that by gathering relevant resources and presenting them in _Rust By Practice_.
 
 ### 1. Ripgrep
 
-Answers for above questions usually came with [`ripgrep`](https://github.com/BurntSushi/ripgrep), though I don't think it is a **small** project, but yes, go for it if you are not afraid to delve deep a bit.
+The go-to answer for the aforementioned queries often revolves around [`ripgrep`](https://github.com/BurntSushi/ripgrep). While it may not exactly fit the description of a **small** project, it's worth diving into if you're up for a bit of a challenge.
 
-### 2. Building a text editor
-Tutorial [`https://www.flenker.blog/hecto/`](https://www.flenker.blog/hecto/) will lead you to build a text editor from scratch.
+### 2. Building a Text Editor
+
+The tutorial at [`https://www.flenker.blog/hecto/`](https://www.flenker.blog/hecto/) guides you in constructing a text editor from scratch.
 
 ### 3. Ncspot
-[Ncspot](https://github.com/hrkfdn/ncspot), a terminal Spotify client. Small, simple, well organized and async, it's good for learning.
+
+Explore [Ncspot](https://github.com/hrkfdn/ncspot), a terminal Spotify client. It's compact, straightforward, well-organized, and asynchronous—a great resource for learning.
 
 ### 4. Command Line Rust
-[This project](https://github.com/kyclark/command-line-rust) is for the book `Command-Line Rust(O'Reily)`, it will show you how to write small CLIs (clones of `head`, `cat`, `ls`).
 
-### 5. pngme book
-[This book](https://jrdngr.github.io/pngme_book/) will guide you to make a command line program that lets you hide secret messages in PNG files.  The primary goal here is to get you writing code. The secondary goal is to get you reading documentation.
+Designed to accompany the book `Command-Line Rust (O'Reilly)`, [this project](https://github.com/kyclark/command-line-rust) demonstrates how to create small CLIs (clones of `head`, `cat`, `ls`).
+
+### 5. pngme Book
+
+[This book](https://jrdngr.github.io/pngme_book/) guides you in developing a command-line program that allows you to conceal secret messages in PNG files. The primary goal is to get you coding, with the secondary goal of encouraging you to delve into documentation.
 
 ### 6. Writing an OS in Rust
 
-[This blog series](https://os.phil-opp.com) creates a small operating system in the Rust programming language. Each post is a small tutorial and includes all needed code, so you can follow along if you like. The source code is also available in the corresponding [Github repository](https://github.com/phil-opp/blog_os).
+Follow [this blog series](https://os.phil-opp.com) that constructs a small operating system in Rust. Each post serves as a tutorial with all necessary code included. You can also find the source code on the corresponding [GitHub repository](https://github.com/phil-opp/blog_os).
 
+### 7. CodeCrafters.io: Build Your Own Git, Docker, SQLite, or Redis
 
-### 7. CodeCrafters.io: Build your own Git, Docker, SQLite, or Redis
-
-On [CodeCrafters](https://codecrafters.io/for/rust), you can recreate your favorite developer tools from scratch. It's a hands-on, minimally-guided approach to master Rust, while appreciating the internals and documentation of popular technology that we use every day.
+On [CodeCrafters](https://codecrafters.io/for/rust), embark on recreating your favorite developer tools from scratch. It offers a hands-on, minimally-guided approach to mastering Rust while gaining insights into the internals and documentation of everyday technologies.
 
 ### 8. mini-redis
-[mini-redis](https://github.com/tokio-rs/mini-redis) is an incomplete Redis client and server implementation using tokio, it has decent code base and detail explanations, very suitable for learning Rust and asynchronous programming.
+
+[mini-redis](https://github.com/tokio-rs/mini-redis) stands as an incomplete Redis client and server implementation using tokio. With a decent codebase and detailed explanations, it is highly suitable for learning Rust and asynchronous programming.
 
 ### 9. Writing Interpreters in Rust
 
-[This online book](https://rust-hosted-langs.github.io/book/) will walk through the basics of interpreted language implementation in Rust with a focus on the challenges that are specific to using Rust.
+[This online book](https://rust-hosted-langs.github.io/book/) will walk you through the basics of interpreted language implementation in Rust, with a focus on challenges specific to using Rust.
 
 ---
-
 
 **To be continued...**
